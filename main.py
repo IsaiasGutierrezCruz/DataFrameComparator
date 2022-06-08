@@ -32,9 +32,11 @@ def dataframes_creation():
 
 if __name__ == '__main__':
     df1, df2 = dataframes_creation()
-    comparator = DataFrameComparator(df1)
-    comparator.
-    comparator.check_row_number(df2)
+    comparator = DataFrameComparator(df1, df2)
+    comparator.check_row_number()
+    comparator.check_col_number()
+    comparator.output_information()
+    print(comparator.df_ref.columns)
     #print(df1)
     #print(df2)
     #DataFrameReference()
