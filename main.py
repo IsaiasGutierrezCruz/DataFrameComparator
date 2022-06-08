@@ -43,6 +43,14 @@ if __name__ == '__main__':
     df1, df2 = dataframes_creation()
     comparator = DataFrameComparator(df1, df2, name_col_id='id')
     comparator.check_cols()
-    comparator.check_rows()
+    comparator.check_rows(show_unique_ids=True)
+    comparator.check_datatypes()
     comparator.output_information()
-    print(comparator.df_ref.columns)
+    """
+    print(df1)
+    print(comparator.df_ref)
+    print(comparator.df_ref.dtypes.index)
+    print('--------------')
+    print(df2)
+    print(comparator.df_proof)
+    """
