@@ -26,3 +26,24 @@ The dataframes have the same number of rows.
  ```{4}```
 ## Description of datatypes
 	- Number of columns with differences in the datatypes: 0
+## Description of differences in column dates
+Differences in column dates:
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>dates</th>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+## Description of differences in all columns
+	Columns with differences:
+	- dates: 1 *
+	- price: 1 *

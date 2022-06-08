@@ -45,6 +45,8 @@ if __name__ == '__main__':
     comparator.check_cols()
     comparator.check_rows(show_unique_ids=True)
     comparator.check_datatypes()
+    comparator.check_differences_in_colum_dates()
+    comparator.check_differences_in_columns(export_differences=True)
     comparator.output_information()
     """
     print(df1)
